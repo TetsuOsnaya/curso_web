@@ -15,8 +15,14 @@ Un simple footer
 
 ## Desafio 1: Crear un clon del Blog de Platzi (HTML y CSS)
 
+![alt tag](http://i.imgur.com/XGcIhGO.png)
+
 ## Desafio 2: Crear un sticky footer
 
+![alt tag](http://i.imgur.com/FjZeG04.png)
+
 ## Desafio 3: Transiciones de hover
+
+![alt tag](http://i.giphy.com/l0MYGCJFSwxVT7s9a.gif)
 
 Y también hice unas pruebas de todas las animaciones que podia hacer con CSS
