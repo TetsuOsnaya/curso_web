@@ -1,5 +1,6 @@
-# Curso: Desarrollo Web Online by Platzi
-Proyectos y desafios del Curso de Desarrollo Web Online.
+# Curso: Desarrollo Web Online
+Proyecto y desafios del Curso de Desarrollo Web Online.
+Esto fue lo que aprendí a hacer.
 
 La portada del sitio. Lo primero que vemos.
 
