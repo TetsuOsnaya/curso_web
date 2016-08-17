@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<title> Nicoliense | Motivación, Diversión, Aprendizaje</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+</head>
+<body>
+   <header id="header" class="header contenedor"> <!-- CABECERA -->
+		<figure class="logotipo"> <!-- LOGOTIPO -->
+			<img src="images/logo.png" alt="Logo Nicoliense" width="100">
+		</figure> <!-- MENU -->
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca De</a></li>
+				<li><a href="videos.html">Vídeos</a></li>
+				<!-- <li><a href="contacto.html">Contacto</a> -->
+			</ul>
+		</nav>
+	</header>
+    
+</body>
+<footer class="footer">
+   <div class="contenedor">
+     <div class="contacto">
+        <img src="images/logo_a.png" alt="Logo" width="128" heighT="128">
+        <a href="tel:+525554172242"><strong>Telefono: </strong><span>5554172242</span></a>
+        <a href="mailto:nicolas.osnaya@gmail.com"><strong>Correo: </strong><span>nicolas.osnaya@gmail.com</span></a>
+     </div>
+    <form class="formulario">
+        <div class="cuadrito">
+            <label for="nombre">Nombre</label>
+            <input type="text" required value="Esteban Trabajos" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required value="steve@apple.com" required id="email" name="email"/>
+            <div class="sexo">
+                <label for="mujer">
+                    <input type="radio" checked id="mujer" name="sexo" value="mujer"> Mujer  
+                </label>
+                <label for="hombre">
+                    <input type="radio" id="hombre" name="sexo" value="hombre"> Hombre  
+                </label>    
+            </div>
+            <div class="intereses">
+                <label for="cotizacion">
+                    <input type="checkbox" checked id="cotizacion" value="cotizacion"> Cotización
+                </label>
+                <label for="reclamos">
+                    <input type="checkbox" id="reclamos" value="reclamos"> Reclamos
+                </label>
+                <label for="comentarios">
+                    <input type="checkbox" id="comentarios" value="comentarios"> Comentarios
+                </label>
+                <label for="otros">
+                    <input type="checkbox" id="otros" value="otros"> Otros
+                </label>
+            </div>
+        </div>
+        <div class="cuadrote">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar"/>
+        </div>
+    </form>  
+   </div>
+</footer>
+</html>

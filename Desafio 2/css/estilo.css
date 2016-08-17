@@ -1,0 +1,40 @@
+body {
+  background-color: lightgray;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: white;
+  
+}
+
+h2 {
+  margin: 1;
+}
+
+
+p {
+  margin: 1;
+}
+
+header {
+  height: 50px;
+  background-color: #fd3e50;
+}
+
+section {
+  background-color: #75ba3c;
+  flex: 1;
+}
+
+footer {
+  background-color: #fd3e50;
+  height: 100px;
+/*
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+*/
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticky Footer | Reto 2</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body id="body">
+  <header id="header">
+    <h2>HEADER</h2>
+  </header>
+  <section id="contenido">
+    <h2>CONTENIDO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quasi necessitatibus quidem aspernatur deserunt sapiente, hic eius adipisci, laborum earum voluptate autem recusandae beatae commodi nesciunt obcaecati, corporis maiores eveniet.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quasi necessitatibus quidem aspernatur deserunt sapiente, hic eius adipisci, laborum earum voluptate autem recusandae beatae commodi nesciunt obcaecati, corporis maiores eveniet.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quasi necessitatibus quidem aspernatur deserunt sapiente, hic eius adipisci, laborum earum voluptate autem recusandae beatae commodi nesciunt obcaecati, corporis maiores eveniet.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quasi necessitatibus quidem aspernatur deserunt sapiente, hic eius adipisci, laborum earum voluptate autem recusandae beatae commodi nesciunt obcaecati, corporis maiores eveniet.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quasi necessitatibus quidem aspernatur deserunt sapiente, hic eius adipisci, laborum earum voluptate autem recusandae beatae commodi nesciunt obcaecati, corporis maiores eveniet.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quasi necessitatibus quidem aspernatur deserunt sapiente, hic eius adipisci, laborum earum voluptate autem recusandae beatae commodi nesciunt obcaecati, corporis maiores eveniet.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quasi necessitatibus quidem aspernatur deserunt sapiente, hic eius adipisci, laborum earum voluptate autem recusandae beatae commodi nesciunt obcaecati, corporis maiores eveniet.</p>
+    
+  </section>
+  <footer id="footer">
+    <h2>FOOTER</h2>
+  </footer>
+  <script>
+    var $contenido = document.getElementByID('contenido');
+    var $footer = document.getElementByID('footer');
+    var $header = document.getElementByID('header');
+    var $body = document.getElementById('body');
+    
+    var alto = $body.offsetHeight - ($footer.offsetHeightHeight + $header.offsetHeightHeight)
+    console.log(alto);
+    $contenido.style.minHeight = alto + "px";
+  </script>
+</body>
+</html>

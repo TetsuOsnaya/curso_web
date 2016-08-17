@@ -1,0 +1,325 @@
+* {
+	/*width: */
+	/*height: */
+	/*border: 1px solid red;*/
+}
+body {
+	/*font-family: 'Press Start 2P', cursive;*/
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+}
+
+.portada {
+	/*background-image: url("../images/wall.jpg");*/
+	background-image: url(../images/wall.jpg);
+	background-position: bottom;
+    background-size: 100%; 
+    width: 100%;
+    height: 400px;
+/*	background-size: 1280px 960px;*/
+	color: white;
+	padding: 20px;	
+	/*background-color: #3F51B5;*/
+
+}
+
+/*
+.portada .contenedor {
+    height: 250px;
+}
+*/
+
+.portada button {
+/*	margin-bottom: 110px;*/
+}
+
+
+.t1 {
+/*    margin-top: 200px;*/
+	font-size: 50px;
+/*	margin-bottom: 10px;*/
+/*	line-height: 200px;*/
+/*	margin-top: 110px;*/
+	color: white;
+/*    margin-top: 0px;*/
+
+}
+
+.t3 {
+	font-size: 20px;
+/*	margin-top: 0;*/
+/*	margin-bottom: 15px;*/
+	color: white;
+}
+
+.t2 {
+	font-size: 35px;
+	color: #448AFF;
+}
+
+.videos h2 {
+	font-size: 35px;
+}
+
+.header {
+/*    background-color: #0D47A1;*/
+    width: 1000px;
+	margin: auto;
+}
+
+.menu{
+	display: inline-block;
+	font-size: 24px;
+    position: absolute;
+    right: 0;
+
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.menu li:before{
+    content: "∘    ";
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.logotipo {
+	display: inline-block;
+	margin-left: 0;
+}
+
+.contenedor {
+	width: 1000px;
+	margin: auto;
+}
+
+
+.videos img {
+	background-color: white;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.video{
+	/*margin: 50px;*/
+	margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+	padding: 50px;
+	overflow: hidden;
+	border: 0px solid #2962FF;
+	background-color: #448AFF;
+	color: white;
+    border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+/*
+.mot{
+    margin-right: 50px;
+    margin-left: 400px;
+}
+.div{
+    margin-right: 300px;
+    margin-left: 50px;
+}
+.apr{
+    margin-right: 50px;
+    margin-left: 400px;
+}
+*/
+
+/*
+.div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+*/
+
+.video ol {
+	padding: 0;
+}
+
+.primero {
+	float: right;
+	margin-right: 50px;
+    position: relative;
+    right: -140px;
+    top: -80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.segundo {
+	float: left;
+	margin-left: 50px;
+    position: relative;
+    left: -140px;
+    top: -80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tercero{
+    float: right;
+	margin-right: 50px;
+    position: relative;
+    right: -140px;
+    top: -80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contenedor-video-b{
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.contenedor-video-a{
+	margin-right: 0px;
+	margin-left: 00PX;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px white;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background: linear-gradient(to left, #E91E63, #2196F3);
+    cursor: pointer;
+}
+
+.footer {
+    background: #0D47A1;
+    padding: 50px 0 50px 0;
+}
+
+.contacto {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+/*    align-content: flex-start;*/
+    align-items: ;
+}
+
+.contacto img {
+    display: block;
+    margin: 10px;
+}
+
+.contacto strong {
+    display: block;
+}
+
+.contacto a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 10px 0;
+    flex-direction: row;
+}
+
+.label {
+    color: white;
+}
+
+.footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    display: flex;
+    width: 580px;
+    color: white;
+/*    padding: 50px 10px ;*/
+}
+
+.cuadrito {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+/*.cuadrito label {*/
+    margin: 10px 0 0 0;
+}
+
+.cuadrote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cuadrote label {
+    display: flex;
+    flex-direction: column;
+}
+.intereses label {
+    font-size: 12px;
+}
+
+/*.sexo label {*/
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario label, .sexo, .intereses{
+    margin-bottom: 10px;
+}
+
+.sexo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+table {
+    width: 800px;
+    margin: 50px;
+    
+}
+
+th {
+    background: #448AFF;
+    color: white;
+}
+
+td {
+    padding: 20PX;
+}
+
+th {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #448AFF;
+    border-collapse: collapse;
+    
+}
+

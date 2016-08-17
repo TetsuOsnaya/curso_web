@@ -1,0 +1,45 @@
+/*SELECTOR UNIVERSAL*/
+* {
+	border: 1px solid red;
+	margin: 10px;
+}
+
+/*SELECTOR DE ETIQUETA*/
+header { 
+	background: blue;
+}
+
+section {
+	background: purple;
+}
+
+/*SELECTOR DESCENDIENTE*/
+
+article h3{
+	color: green;
+}
+
+/*SELECTORES DE CLASE*/
+
+.t1 {
+	background: yellow;
+}
+
+.t2 {
+	background: blue;
+}
+
+/*SELECTOR DE ID*/
+#header {
+	border: 5px solid black;
+}
+
+#portada {
+	border: 5px solid green;
+
+}
+
+#videos {
+	border: 5px solid yellow;
+
+}
