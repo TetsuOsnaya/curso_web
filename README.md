@@ -1,3 +1,3 @@
 # curso_web
 Proyectos y desafios del Curso de Desarrollo Web Online
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt tag](http://i.imgur.com/o8FNkc6.png)
