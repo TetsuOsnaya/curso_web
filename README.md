@@ -3,7 +3,7 @@
 **_Puedes ver el sitio web [aquí](https://tetsuosnaya.github.io/curso_web/)_**
 
 Proyecto y desafios del Curso de Desarrollo Web Online.
-Esto fue lo que aprendí a hacer.
+El proyecto es ficticio. Aunque uso el nombre de uno de mis anteriores proyectos.
 
 La portada del sitio. Lo primero que vemos.
 
