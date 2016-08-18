@@ -142,6 +142,10 @@ header{
 	margin: auto;
 }
 
+.videos {
+  text-align: center;
+}
+
 
 .videos img {
 	background-color: white;
